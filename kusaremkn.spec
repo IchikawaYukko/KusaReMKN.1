@@ -38,8 +38,8 @@ mkdir -p %{buildroot}/usr/share/man/man1
 
 #echo "SRC_ROOT = $SRC_ROOT"
 cp $SRC_ROOT/KusaReMKN %{buildroot}/usr/bin
-gzip -9 -c $SRC_ROOT/kusaremkn.1 > %{buildroot}/usr/share/man/man1/kusaremkn.1.gz
-#gzip -9 -c $SRC_ROOT/kusaremkn.1.ja > %{buildroot}/usr/share/man/ja/man1/kusaremkn.1.gz
+gzip -9 -c $SRC_ROOT/kusaremkn.1 > %{buildroot}/usr/share/man/man1/KusaReMKN.1.gz
+#gzip -9 -c $SRC_ROOT/kusaremkn.1.ja > %{buildroot}/usr/share/man/ja/man1/KusaReMKN.1.gz
 
 ### Sources ###
 cp $SRC_ROOT/kusaremkn.c %{_sourcedir}/kusaremkn.c
