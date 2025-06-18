@@ -35,6 +35,7 @@ KusaReMKN（腐れ蜜柑） 私は大天才美少女プログラミング初心�
 mkdir -p %{buildroot}/usr/bin/
 mkdir -p %{buildroot}/usr/share/man/man1
 #mkdir -p %{buildroot}/usr/share/man/ja/man1
+mkdir -p %{_sourcedir}
 
 #echo "SRC_ROOT = $SRC_ROOT"
 cp $SRC_ROOT/KusaReMKN %{buildroot}/usr/bin
